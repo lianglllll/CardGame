@@ -1,0 +1,13 @@
+coins,154
+card,0,11
+card,5,9
+card,2,7
+card,1,8
+card,3,7
+card,4,7
+deck,1,6
+deck,0,5
+deck,5,11
+deck,4,1
+deck,2,2
+deck,3,1
