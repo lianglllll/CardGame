@@ -16,4 +16,9 @@ public class SpellCard : BaseCard
         this.effect = effect;
     }
 
+    public SpellCard(SpellCard card) : base(card.id, card.cardName)
+    {
+        this.effect = card.effect;
+    }
+
 }

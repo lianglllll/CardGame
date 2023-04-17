@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8837051877500594007}
   - component: {fileID: 5981590226244307945}
   m_Layer: 5
-  m_Name: Arrow
+  m_Name: SummonArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -399,6 +399,7 @@ GameObject:
   - component: {fileID: 5813419375197004937}
   - component: {fileID: 9094908274047890249}
   - component: {fileID: 8856124880838003891}
+  - component: {fileID: 3459227446275280145}
   m_Layer: 5
   m_Name: BattleCard
   m_TagString: Untagged
@@ -473,6 +474,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91235697950950849bc1c96189515207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerID: 0
+  state: 0
+  attackCount: 0
+--- !u!114 &3459227446275280145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7813134709831402804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f044c35318b894ab367b5dcee9e1fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackable: 0
 --- !u!1 &7873439839619182082
 GameObject:
   m_ObjectHideFlags: 0

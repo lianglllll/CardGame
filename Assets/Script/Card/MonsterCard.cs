@@ -10,6 +10,7 @@ public class MonsterCard:BaseCard
     public int attack;
     public int hp;
     public int maxHp;
+    public int attackCount;
 
     /*
      ¹¹Ôìº¯Êý
@@ -19,6 +20,16 @@ public class MonsterCard:BaseCard
         this.attack = attack;
         this.hp = hp;
         this.maxHp = maxHp;
+        attackCount = 1;
+    }
+
+
+    public MonsterCard(MonsterCard card):base(card.id, card.cardName)
+    {
+        this.attack = card.attack;
+        this.hp = card.maxHp;
+        this.maxHp = card.maxHp;
+        attackCount = 1;
     }
 
 }
